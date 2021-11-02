@@ -1,0 +1,46 @@
+*{
+    font-size: 1.01em;
+    padding-inline: 25px 2px;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+[class$="field"] {
+    background: rgb(102, 64, 146);
+    width: 302px;
+    padding: 1px 1px;
+    margin: 8px 25px;
+
+}
+
+input[type = text], input[type = date] {
+    padding-inline: 25px;
+    border: 2px solid rgb(171, 180, 207);
+    border-radius: 0.5px;
+    font-size: 9pt; 
+    font-style: italic;
+    font-weight: lighter;
+    height: 25px; 
+    width: 300px;
+}
+
+input[type = radio] {
+    font-style: oblique;
+    margin: 10px 5px 5px 10px;
+}
+
+#comments {
+    width: 299px;
+}
+
+[class = "-group"] {
+    display: inline-block;
+    text-align: left;
+    padding-left: 80px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+[class = "-group"]:hover {
+    opacity: 1;
+}
